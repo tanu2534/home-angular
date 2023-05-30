@@ -1,0 +1,36 @@
+.sec4 {
+    height: calc(100vh - 95px);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sec4-img{
+    height: 50vh;
+    width: 100%;
+    background-image: url('https://urspayce.com/assets/image/home/landing/bg-light-work.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2%;
+}
+@media screen and (min-width: 1500px) {
+    .sec4{
+        width: 1300px; ;
+    }
+    .sec4-img{
+        height: 300px ;
+        width: 1000px;
+    }
+  }

@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    /* background-color:pink; */
+}
+.content{
+    position: relative;
+    overflow: hidden;
+}
+button{
+    height: 60%;
+    width: 50%;
+    border-radius: 25px;
+    color: white;
+    background-color: #176cff;
+    border-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+  }
+  .line{
+    height: 1.5px;
+    width: 100%;
+    background-color: rgba(61, 61, 61, 0.445);
+}
+.text h1,.sec5 h1{
+    font-size: 3vmax;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.text p,.sec5 p{
+      opacity: 0.8;
+      ;
+  }
+  .center{
+    display: grid;
+    place-items: center;
+}
+.opacity{
+    opacity: 0.7;
+}

@@ -1,0 +1,148 @@
+.footer{
+    height: 120vh;
+    width: 100vw;
+    background-color: #6ea0d39f;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* z-index: ; */
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.f1{
+    height: 20%;
+    width: 100%;
+    background-color: #ffffff;
+}
+.f2{
+    height: 80%;
+    width: 100%;
+    background-color: #e8eaf5c7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.f3{
+    height: 48vh;
+    width: 83%;
+    background-color: #041636;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.f3a{
+    height: 100%;
+    width: 20%;
+    background-image: url("https://urspayce.com/assets/image/home/landing/bg-left.webp");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: auto;
+}
+.f3b{
+    height: 100%;
+    width: 30%;
+}
+.f3c{
+    height: 100%;
+    width: 50%;
+    background-image: url('https://urspayce.com/assets/image/home/landing/bg-right.webp');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: auto;
+}
+.f3d{
+    height: 100%;
+    width: 70%;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-inline: 10%;
+    color: white;
+
+}
+.f3d button{
+    height: 10%;
+    width: 25%;
+    border-radius: 20px;
+   margin: 20px;
+   background-color: #1fc9aa;
+   color: black;
+   font-weight: 500;
+}
+
+.fa{
+    width: 20%;
+    height: 70%;
+    margin-top: 13%;
+    margin-inline: 3%;
+}
+.fb{
+    margin-top: 14%;
+    width: 20%;
+    height: 70%;
+}
+.fc{
+    margin-top: 14%;
+    width: 20%;
+    height: 70%;
+}
+.fd{
+    width: 20%;
+    height: 70%;
+    margin-top: 14%;
+}
+.l{
+    height: 75px;
+    width: 258px;
+    /* margin-top: 50px; */
+    margin-left: -15%;
+    background-image: url('https://urspayce.com/assets/image/icons/logo.svg'); background-repeat: no-repeat;
+    background-position: center ;
+    background-size: auto;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+}
+.ll{
+    height: 100%;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 40px 40px;
+}
+.l1{
+    background-image: url('https://img.icons8.com/?size=212&id=118497&format=png');
+}
+.l2{
+    background-image: url('https://img.icons8.com/?size=512&id=32323&format=png');
+}
+.l3{
+    background-image: url('https://img.icons8.com/?size=512&id=13963&format=png');
+}
+.l4{
+    background-image: url('https://img.icons8.com/?size=512&id=13930&format=png');
+}
+.l5{
+    background-image: url('https://img.icons8.com/?size=512&id=19318&format=png');
+}
+.f2 p{
+    font-size: 1vmax;
+    margin: 5%;
+}
+.f2 h6{
+    font-size: 1vmax;
+    margin: 5%;
+}

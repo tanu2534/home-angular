@@ -1,0 +1,68 @@
+.sc-card{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(189, 189, 189, 0.301);
+}
+.cr1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cr11{
+    height: 45%;
+    width: 100%;
+    background-image: url('https://urspayce.com/assets/image/home/landing/card-md.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cr12{
+    height: 45%;
+    width:100% ;
+    background-image: url('https://urspayce.com/assets/image/home/landing/card-md1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cr2{
+    height: 100%;
+    width: 45%;
+    background-image: url('https://urspayce.com/assets/image/home/landing/card-lg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+marquee{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    overflow: hidden;
+}
+
+
+.scroller{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    margin-top: 3%;
+    /* background:#ccc; */
+    overflow:hidden;
+  }
+  
+  /* .scroller::after {
+    width:100vw;
+    height:100vh;
+    content:"";
+    position:absolute;
+    border:solid 1px white;
+  } */
